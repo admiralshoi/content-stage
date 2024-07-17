@@ -1,0 +1,16 @@
+{
+    "19913": true,
+    "42": true,
+    "10102": "",
+    "68": 10,
+    "13": 500,
+    "84": "CURL_HTTP_VERSION_1_1",
+    "10036": "GET",
+    "10023": [
+        "User-Agent: Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/124.0.0.0 Safari\/537.36",
+        "X-Ig-App-Id: 936619743392459",
+        "cookie: ig_did=160538A0-CFAB-4B94-AF41-56453E6E98F4; fbm_124024574287414=base_domain=.instagram.com; ds_user_id=220519463; mid=ZVfV-wALAAFywSCsnuoCP9ENkSug; datr=0eFpZS0vy6Bb5y8JxgnEjoyh; csrftoken=FxoIjz1O6fTnL0KUHy3cUjylpVTYuPFQ; oo=v1; shbid=\"530\\054220519463\\0541745327151:01f706575ff7ba82d11c31662f2b83acf712ad0b3dafc91424e8e47ffade5a37f9b22b42\"; shbts=\"1713791151\\054220519463\\0541745327151:01f7247aef027121ead4d5f965371134378614510470208336fed933611c89cb9deca6ca\"; rur=\"LLA\\054220519463\\0541745584521:01f77f1db812220533a6c1e0e583f40c4568cbe8817eb4491be081d651d1ee1318134cee\"; sessionid=220519463%3Ab055Sufy3UdVOu%3A16%3AAYeXLbIHC54kmIIEEy2b2niXd2F3aelY13WSW3TV_DU"
+    ],
+    "52": 1,
+    "10002": "https:\/\/www.instagram.com\/graphql\/query\/?query_hash=be13233562af2d229b008d2976b998b5&variables=%7B%22id%22%3A32280510937%2C%22first%22%3A12%7D"
+}

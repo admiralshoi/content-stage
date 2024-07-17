@@ -1,0 +1,23 @@
+https://app.contentstage.de/
+
+brand_test
+123456
+
+
+instaniamani@gmail.com
+crazyPwD_982
+
+
+
+
+
+An agent is the "brand user" / connected instagram business account.
+By clicking the chaticon bottom right corner a user can open a chat, where he can view different conversations with creators as well as see messages and reply to them
+
+We show the attached media sent through the webhook along with a message saying "'user' replied to your story: {{message}}", where the {{message}} is the message that was replied
+
+We show the attached media with a message below it saying "'user' mentioned you in their story"
+
+As our we receive the webhook suggesting a message has been unsent / deleted, we update the "status" in our database to deleted, as such replacing the text message with a "Message has been deleted" message, which we are showing in a cursive format in the chat. Any story or otherwise attached media will also be removed and not displayed anymore.
+
+For story expirations (or essentially removal of "media" which doesn't send a "deletion" webhook) the media will simply stop being displayed in the chat, although the message saying that a user mentioned them in their story etc will persist, similar to how does in the real Instagram inbox as well.

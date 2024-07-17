@@ -1,0 +1,89 @@
+{
+    "ai_agent_type": null,
+    "biography": "Entdecke und teste nachhaltige und innovative Marken. \ud83e\udd0d \nJetzt anmelden und kostenlose Produkte erhalten. \ud83d\udc47",
+    "bio_links": [
+        {
+            "title": "",
+            "lynx_url": "https:\/\/l.instagram.com\/?u=https%3A%2F%2Flinktr.ee%2Fgoodbrands.love&e=AT05Xml_HRaNS4Jfqs_1GEP2x0RhmSU6hXKFTr6FzOFxsVKy3WOFWw4dXWkojq3Fh9_biKNjEETOOYUfHBlkW-_0DznXFi3OCN7WIA",
+            "url": "https:\/\/linktr.ee\/goodbrands.love",
+            "link_type": "external"
+        }
+    ],
+    "fb_profile_biolink": null,
+    "biography_with_entities": {
+        "raw_text": "Entdecke und teste nachhaltige und innovative Marken. \ud83e\udd0d \nJetzt anmelden und kostenlose Produkte erhalten. \ud83d\udc47",
+        "entities": []
+    },
+    "blocked_by_viewer": false,
+    "restricted_by_viewer": false,
+    "country_block": false,
+    "eimu_id": "17842566872078938",
+    "external_url": "https:\/\/linktr.ee\/goodbrands.love",
+    "external_url_linkshimmed": "https:\/\/l.instagram.com\/?u=https%3A%2F%2Flinktr.ee%2Fgoodbrands.love&e=AT1Oos2KwMH0r4cOqTOxK-CBqnYnuX_i2RV6GM5zU5GrApnt4cBITiNtowO7mwjNoXHGsh3lZPfUehkDryCZ_QnF73s1hCkYlkoLmQ",
+    "edge_followed_by": {
+        "count": 11227
+    },
+    "fbid": "17841432368125063",
+    "followed_by_viewer": true,
+    "edge_follow": {
+        "count": 1051
+    },
+    "follows_viewer": false,
+    "full_name": "GOODBRANDS",
+    "group_metadata": null,
+    "has_ar_effects": true,
+    "has_clips": true,
+    "has_guides": false,
+    "has_chaining": true,
+    "has_channel": false,
+    "has_blocked_viewer": false,
+    "highlight_reel_count": 3,
+    "has_requested_viewer": false,
+    "hide_like_and_view_counts": false,
+    "id": "32280510937",
+    "is_business_account": true,
+    "is_professional_account": true,
+    "is_supervision_enabled": false,
+    "is_guardian_of_viewer": false,
+    "is_supervised_by_viewer": false,
+    "is_supervised_user": false,
+    "is_embeds_disabled": false,
+    "is_joined_recently": false,
+    "guardian_id": null,
+    "business_address_json": null,
+    "business_contact_method": "UNKNOWN",
+    "business_email": null,
+    "business_phone_number": null,
+    "business_category_name": "None",
+    "overall_category_name": null,
+    "category_enum": "COMMUNITY",
+    "category_name": "Community",
+    "is_private": false,
+    "is_verified": false,
+    "is_verified_by_mv4b": false,
+    "is_regulated_c18": false,
+    "edge_mutual_followed_by": {
+        "count": 0,
+        "edges": []
+    },
+    "pinned_channels_list_count": 0,
+    "profile_pic_url": "https:\/\/instagram.fmad18-1.fna.fbcdn.net\/v\/t51.2885-19\/402525255_1445143872716427_5993461111836953602_n.jpg?stp=dst-jpg_s150x150&_nc_ht=instagram.fmad18-1.fna.fbcdn.net&_nc_cat=103&_nc_ohc=vJnhQSxOz6QAb6W7fJj&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfB-P1ExGpIPs27w7GugC8V_N5o75sJFchsOx-60Im1nsA&oe=66319D70&_nc_sid=8b3546",
+    "profile_pic_url_hd": "https:\/\/instagram.fmad18-1.fna.fbcdn.net\/v\/t51.2885-19\/402525255_1445143872716427_5993461111836953602_n.jpg?stp=dst-jpg_s150x150&_nc_ht=instagram.fmad18-1.fna.fbcdn.net&_nc_cat=103&_nc_ohc=vJnhQSxOz6QAb6W7fJj&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfB-P1ExGpIPs27w7GugC8V_N5o75sJFchsOx-60Im1nsA&oe=66319D70&_nc_sid=8b3546",
+    "requested_by_viewer": false,
+    "should_show_category": true,
+    "should_show_public_contacts": true,
+    "show_account_transparency_details": true,
+    "transparency_label": null,
+    "transparency_product": null,
+    "username": "goodbrands.love",
+    "connected_fb_page": null,
+    "pronouns": [],
+    "edge_owner_to_timeline_media": {
+        "count": 164,
+        "page_info": {
+            "has_next_page": true,
+            "end_cursor": ""
+        },
+        "edges": []
+    }
+}

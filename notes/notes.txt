@@ -1,0 +1,38 @@
+enable tags as mentions
+story  insights ?
+linked in chckup
+
+
+
+
+dont overwrite MID, but add as _sid
+weird sql sselection ?
+
+
+
+make outline on thoughts of next projects:
+tiktok integration
+find creators
+"open" campaigns to apply
+payment wall
+2fa
+
+
+put my own thoughts as well?
+
+
+
+
+
+
+when viewing creator campaign media, display campaign name or similar in the title
+video views and impressions, what are they ?
+
+
+2fa = verify first time
+payment: outline of 3 package types (make prices changable in admin panel.)
+open campaigns: Being able to see campaigns without being logged in as well as applying. Application review 	should display as list for the brand. Brand can accept. notify when accepted.
+
+
+
+

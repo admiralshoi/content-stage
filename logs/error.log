@@ -1,0 +1,305 @@
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'access_level' cannot be null
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'access_level' cannot be null
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'access_level' cannot be null
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'access_level' cannot be null
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'access_level' cannot be null
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'access_level' cannot be null
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'insights' in 'field list'
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'insights' in 'field list'
+Date: 23/05-2023 15:26:15; User: 27017094193078; Error_code: 901; Error_msg: PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 in C:\php\htdocs\goodbrandslove\classes\src\AbstractCrudObject.php:83
+Stack trace:
+#0 C:\php\htdocs\goodbrandslove\classes\src\AbstractCrudObject.php(83): PDO->query('SELECT * FROM c...')
+#1 C:\php\htdocs\goodbrandslove\classes\src\Object\objects\Campaigns.php(58): classes\src\AbstractCrudObject->retrieve('campaigns', Array, Array, 'SELECT * FROM c...')
+#2 C:\php\htdocs\goodbrandslove\classes\src\Object\objects\Campaigns.php(114): classes\src\Object\objects\Campaigns->getByX(Array, Array, 'SELECT * FROM c...')
+#3 C:\php\htdocs\goodbrandslove\classes\src\Object\objects\Campaigns.php(119): classes\src\Object\objects\Campaigns->getTimeCampaignLogic('SELECT * FROM c...', Array)
+#4 C:\php\htdocs\goodbrandslove\includes\html\other\campaigns.php(532): classes\src\Object\objects\Campaigns->getActiveCampaigns()
+#5 C:\php\htdocs\goodbrandslove\functions.php(47): require_once('C:\\php\\htdocs\\g...')
+#6 C:\php\htdocs\goodbrandslove\includes\html\user_templates\user_page.php(44): require_files_list(Array)
+#7 C:\php\htdocs\goodbrandslove\functions.php(47): require_once('C:\\php\\htdocs\\g...')
+#8 C:\php\htdocs\goodbrandslove\includes\html\user_templates\user_template.php(14): require_files_list(Array)
+#9 C:\php\htdocs\goodbrandslove\functions.php(47): require_once('C:\\php\\htdocs\\g...')
+#10 C:\php\htdocs\goodbrandslove\index.php(57): require_files_list(Array)
+#11 {main}
+Date: 23/05-2023 15:26:15; User: 27017094193078; Error_code: 901; Error_msg: PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 in C:\php\htdocs\goodbrandslove\classes\src\AbstractCrudObject.php:83
+Stack trace:
+#0 C:\php\htdocs\goodbrandslove\classes\src\AbstractCrudObject.php(83): PDO->query('SELECT * FROM c...')
+#1 C:\php\htdocs\goodbrandslove\classes\src\Object\objects\Campaigns.php(58): classes\src\AbstractCrudObject->retrieve('campaigns', Array, Array, 'SELECT * FROM c...')
+#2 C:\php\htdocs\goodbrandslove\classes\src\Object\objects\Campaigns.php(114): classes\src\Object\objects\Campaigns->getByX(Array, Array, 'SELECT * FROM c...')
+#3 C:\php\htdocs\goodbrandslove\classes\src\Object\objects\Campaigns.php(124): classes\src\Object\objects\Campaigns->getTimeCampaignLogic('SELECT * FROM c...', Array)
+#4 C:\php\htdocs\goodbrandslove\includes\html\other\campaigns.php(533): classes\src\Object\objects\Campaigns->getUpcomingCampaigns()
+#5 C:\php\htdocs\goodbrandslove\functions.php(47): require_once('C:\\php\\htdocs\\g...')
+#6 C:\php\htdocs\goodbrandslove\includes\html\user_templates\user_page.php(44): require_files_list(Array)
+#7 C:\php\htdocs\goodbrandslove\functions.php(47): require_once('C:\\php\\htdocs\\g...')
+#8 C:\php\htdocs\goodbrandslove\includes\html\user_templates\user_template.php(14): require_files_list(Array)
+#9 C:\php\htdocs\goodbrandslove\functions.php(47): require_once('C:\\php\\htdocs\\g...')
+#10 C:\php\htdocs\goodbrandslove\index.php(57): require_files_list(Array)
+#11 {main}
+Date: 23/05-2023 15:26:15; User: 27017094193078; Error_code: 901; Error_msg: PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 in C:\php\htdocs\goodbrandslove\classes\src\AbstractCrudObject.php:83
+Stack trace:
+#0 C:\php\htdocs\goodbrandslove\classes\src\AbstractCrudObject.php(83): PDO->query('SELECT * FROM c...')
+#1 C:\php\htdocs\goodbrandslove\classes\src\Object\objects\Campaigns.php(58): classes\src\AbstractCrudObject->retrieve('campaigns', Array, Array, 'SELECT * FROM c...')
+#2 C:\php\htdocs\goodbrandslove\classes\src\Object\objects\Campaigns.php(114): classes\src\Object\objects\Campaigns->getByX(Array, Array, 'SELECT * FROM c...')
+#3 C:\php\htdocs\goodbrandslove\classes\src\Object\objects\Campaigns.php(129): classes\src\Object\objects\Campaigns->getTimeCampaignLogic('SELECT * FROM c...', Array)
+#4 C:\php\htdocs\goodbrandslove\includes\html\other\campaigns.php(534): classes\src\Object\objects\Campaigns->getPastCampaigns()
+#5 C:\php\htdocs\goodbrandslove\functions.php(47): require_once('C:\\php\\htdocs\\g...')
+#6 C:\php\htdocs\goodbrandslove\includes\html\user_templates\user_page.php(44): require_files_list(Array)
+#7 C:\php\htdocs\goodbrandslove\functions.php(47): require_once('C:\\php\\htdocs\\g...')
+#8 C:\php\htdocs\goodbrandslove\includes\html\user_templates\user_template.php(14): require_files_list(Array)
+#9 C:\php\htdocs\goodbrandslove\functions.php(47): require_once('C:\\php\\htdocs\\g...')
+#10 C:\php\htdocs\goodbrandslove\index.php(57): require_files_list(Array)
+#11 {main}
+Date: 23/05-2023 15:28:24; User: 27017094193078; Error_code: 901; Error_msg: PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 in C:\php\htdocs\goodbrandslove\classes\src\AbstractCrudObject.php:83
+Stack trace:
+#0 C:\php\htdocs\goodbrandslove\classes\src\AbstractCrudObject.php(83): PDO->query('SELECT * FROM c...')
+#1 C:\php\htdocs\goodbrandslove\classes\src\Object\objects\Campaigns.php(58): classes\src\AbstractCrudObject->retrieve('campaigns', Array, Array, 'SELECT * FROM c...')
+#2 C:\php\htdocs\goodbrandslove\classes\src\Object\objects\Campaigns.php(114): classes\src\Object\objects\Campaigns->getByX(Array, Array, 'SELECT * FROM c...')
+#3 C:\php\htdocs\goodbrandslove\classes\src\Object\objects\Campaigns.php(119): classes\src\Object\objects\Campaigns->getTimeCampaignLogic('SELECT * FROM c...', Array)
+#4 C:\php\htdocs\goodbrandslove\includes\html\other\campaigns.php(532): classes\src\Object\objects\Campaigns->getActiveCampaigns()
+#5 C:\php\htdocs\goodbrandslove\functions.php(47): require_once('C:\\php\\htdocs\\g...')
+#6 C:\php\htdocs\goodbrandslove\includes\html\user_templates\user_page.php(44): require_files_list(Array)
+#7 C:\php\htdocs\goodbrandslove\functions.php(47): require_once('C:\\php\\htdocs\\g...')
+#8 C:\php\htdocs\goodbrandslove\includes\html\user_templates\user_template.php(14): require_files_list(Array)
+#9 C:\php\htdocs\goodbrandslove\functions.php(47): require_once('C:\\php\\htdocs\\g...')
+#10 C:\php\htdocs\goodbrandslove\index.php(57): require_files_list(Array)
+#11 {main}
+Date: 23/05-2023 15:28:24; User: 27017094193078; Error_code: 901; Error_msg: PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 in C:\php\htdocs\goodbrandslove\classes\src\AbstractCrudObject.php:83
+Stack trace:
+#0 C:\php\htdocs\goodbrandslove\classes\src\AbstractCrudObject.php(83): PDO->query('SELECT * FROM c...')
+#1 C:\php\htdocs\goodbrandslove\classes\src\Object\objects\Campaigns.php(58): classes\src\AbstractCrudObject->retrieve('campaigns', Array, Array, 'SELECT * FROM c...')
+#2 C:\php\htdocs\goodbrandslove\classes\src\Object\objects\Campaigns.php(114): classes\src\Object\objects\Campaigns->getByX(Array, Array, 'SELECT * FROM c...')
+#3 C:\php\htdocs\goodbrandslove\classes\src\Object\objects\Campaigns.php(124): classes\src\Object\objects\Campaigns->getTimeCampaignLogic('SELECT * FROM c...', Array)
+#4 C:\php\htdocs\goodbrandslove\includes\html\other\campaigns.php(533): classes\src\Object\objects\Campaigns->getUpcomingCampaigns()
+#5 C:\php\htdocs\goodbrandslove\functions.php(47): require_once('C:\\php\\htdocs\\g...')
+#6 C:\php\htdocs\goodbrandslove\includes\html\user_templates\user_page.php(44): require_files_list(Array)
+#7 C:\php\htdocs\goodbrandslove\functions.php(47): require_once('C:\\php\\htdocs\\g...')
+#8 C:\php\htdocs\goodbrandslove\includes\html\user_templates\user_template.php(14): require_files_list(Array)
+#9 C:\php\htdocs\goodbrandslove\functions.php(47): require_once('C:\\php\\htdocs\\g...')
+#10 C:\php\htdocs\goodbrandslove\index.php(57): require_files_list(Array)
+#11 {main}
+Date: 23/05-2023 15:28:24; User: 27017094193078; Error_code: 901; Error_msg: PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 in C:\php\htdocs\goodbrandslove\classes\src\AbstractCrudObject.php:83
+Stack trace:
+#0 C:\php\htdocs\goodbrandslove\classes\src\AbstractCrudObject.php(83): PDO->query('SELECT * FROM c...')
+#1 C:\php\htdocs\goodbrandslove\classes\src\Object\objects\Campaigns.php(58): classes\src\AbstractCrudObject->retrieve('campaigns', Array, Array, 'SELECT * FROM c...')
+#2 C:\php\htdocs\goodbrandslove\classes\src\Object\objects\Campaigns.php(114): classes\src\Object\objects\Campaigns->getByX(Array, Array, 'SELECT * FROM c...')
+#3 C:\php\htdocs\goodbrandslove\classes\src\Object\objects\Campaigns.php(129): classes\src\Object\objects\Campaigns->getTimeCampaignLogic('SELECT * FROM c...', Array)
+#4 C:\php\htdocs\goodbrandslove\includes\html\other\campaigns.php(534): classes\src\Object\objects\Campaigns->getPastCampaigns()
+#5 C:\php\htdocs\goodbrandslove\functions.php(47): require_once('C:\\php\\htdocs\\g...')
+#6 C:\php\htdocs\goodbrandslove\includes\html\user_templates\user_page.php(44): require_files_list(Array)
+#7 C:\php\htdocs\goodbrandslove\functions.php(47): require_once('C:\\php\\htdocs\\g...')
+#8 C:\php\htdocs\goodbrandslove\includes\html\user_templates\user_template.php(14): require_files_list(Array)
+#9 C:\php\htdocs\goodbrandslove\functions.php(47): require_once('C:\\php\\htdocs\\g...')
+#10 C:\php\htdocs\goodbrandslove\index.php(57): require_files_list(Array)
+#11 {main}
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'dest_id' in 'field list'
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'dest_id' in 'field list'
+Date: 03/08-2023 14:32:29; User: 27017094193078; Error_code: 901; Error_msg: PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'provider' in 'where clause' in C:\php\htdocs\goodbrandslove\classes\src\AbstractCrudObject.php:83
+Stack trace:
+#0 C:\php\htdocs\goodbrandslove\classes\src\AbstractCrudObject.php(83): PDO->query('SELECT * FROM l...')
+#1 C:\php\htdocs\goodbrandslove\classes\src\Object\objects\LookupList.php(65): classes\src\AbstractCrudObject->retrieve('lookup_list', Array, Array, '')
+#2 C:\php\htdocs\goodbrandslove\classes\src\Object\objects\LookupList.php(84): classes\src\Object\objects\LookupList->getByX(Array, Array)
+#3 C:\php\htdocs\goodbrandslove\classes\src\Object\objects\User.php(247): classes\src\Object\objects\LookupList->getByUsername('instaniamani')
+#4 C:\php\htdocs\goodbrandslove\class_settings.php(18): classes\src\Object\objects\User->integrationUnderway()
+#5 C:\php\htdocs\goodbrandslove\functions.php(31): getPage()
+#6 C:\php\htdocs\goodbrandslove\index.php(14): require_once('C:\\php\\htdocs\\g...')
+#7 {main}
+Date: 03/08-2023 14:32:30; User: 27017094193078; Error_code: 901; Error_msg: PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'provider' in 'where clause' in C:\php\htdocs\goodbrandslove\classes\src\AbstractCrudObject.php:83
+Stack trace:
+#0 C:\php\htdocs\goodbrandslove\classes\src\AbstractCrudObject.php(83): PDO->query('SELECT * FROM l...')
+#1 C:\php\htdocs\goodbrandslove\classes\src\Object\objects\LookupList.php(65): classes\src\AbstractCrudObject->retrieve('lookup_list', Array, Array, '')
+#2 C:\php\htdocs\goodbrandslove\classes\src\Object\objects\LookupList.php(84): classes\src\Object\objects\LookupList->getByX(Array, Array)
+#3 C:\php\htdocs\goodbrandslove\classes\src\Object\objects\User.php(247): classes\src\Object\objects\LookupList->getByUsername('instaniamani')
+#4 C:\php\htdocs\goodbrandslove\classes\src\AbstractCrudObject.php(489): classes\src\Object\objects\User->integrationUnderway()
+#5 C:\php\htdocs\goodbrandslove\includes\html\admin_utility\integrations.php(58): classes\src\AbstractCrudObject->integrationUnderway()
+#6 C:\php\htdocs\goodbrandslove\functions.php(47): require_once('C:\\php\\htdocs\\g...')
+#7 C:\php\htdocs\goodbrandslove\includes\html\user_templates\user_page.php(44): require_files_list(Array)
+#8 C:\php\htdocs\goodbrandslove\functions.php(47): require_once('C:\\php\\htdocs\\g...')
+#9 C:\php\htdocs\goodbrandslove\includes\html\user_templates\user_template.php(14): require_files_list(Array)
+#10 C:\php\htdocs\goodbrandslove\functions.php(47): require_once('C:\\php\\htdocs\\g...')
+#11 C:\php\htdocs\goodbrandslove\index.php(57): require_files_list(Array)
+#12 {main}
+Date: 03/08-2023 14:32:33; User: 27017094193078; Error_code: 901; Error_msg: PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'provider' in 'where clause' in C:\php\htdocs\goodbrandslove\classes\src\AbstractCrudObject.php:83
+Stack trace:
+#0 C:\php\htdocs\goodbrandslove\classes\src\AbstractCrudObject.php(83): PDO->query('SELECT * FROM l...')
+#1 C:\php\htdocs\goodbrandslove\classes\src\Object\objects\LookupList.php(65): classes\src\AbstractCrudObject->retrieve('lookup_list', Array, Array, '')
+#2 C:\php\htdocs\goodbrandslove\classes\src\Object\objects\LookupList.php(84): classes\src\Object\objects\LookupList->getByX(Array, Array)
+#3 C:\php\htdocs\goodbrandslove\classes\src\Object\objects\User.php(247): classes\src\Object\objects\LookupList->getByUsername('instaniamani')
+#4 C:\php\htdocs\goodbrandslove\class_settings.php(18): classes\src\Object\objects\User->integrationUnderway()
+#5 C:\php\htdocs\goodbrandslove\functions.php(31): getPage()
+#6 C:\php\htdocs\goodbrandslove\index.php(14): require_once('C:\\php\\htdocs\\g...')
+#7 {main}
+Date: 03/08-2023 14:33:42; User: 27017094193078; Error_code: 901; Error_msg: PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'provider' in 'where clause' in C:\php\htdocs\goodbrandslove\classes\src\AbstractCrudObject.php:83
+Stack trace:
+#0 C:\php\htdocs\goodbrandslove\classes\src\AbstractCrudObject.php(83): PDO->query('SELECT * FROM l...')
+#1 C:\php\htdocs\goodbrandslove\classes\src\Object\objects\LookupList.php(65): classes\src\AbstractCrudObject->retrieve('lookup_list', Array, Array, '')
+#2 C:\php\htdocs\goodbrandslove\classes\src\Object\objects\LookupList.php(84): classes\src\Object\objects\LookupList->getByX(Array, Array)
+#3 C:\php\htdocs\goodbrandslove\classes\src\Object\objects\User.php(247): classes\src\Object\objects\LookupList->getByUsername('instaniamani')
+#4 C:\php\htdocs\goodbrandslove\class_settings.php(18): classes\src\Object\objects\User->integrationUnderway()
+#5 C:\php\htdocs\goodbrandslove\functions.php(31): getPage()
+#6 C:\php\htdocs\goodbrandslove\index.php(14): require_once('C:\\php\\htdocs\\g...')
+#7 {main}
+Date: 03/08-2023 14:33:42; User: 27017094193078; Error_code: 901; Error_msg: PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'provider' in 'where clause' in C:\php\htdocs\goodbrandslove\classes\src\AbstractCrudObject.php:83
+Stack trace:
+#0 C:\php\htdocs\goodbrandslove\classes\src\AbstractCrudObject.php(83): PDO->query('SELECT * FROM l...')
+#1 C:\php\htdocs\goodbrandslove\classes\src\Object\objects\LookupList.php(65): classes\src\AbstractCrudObject->retrieve('lookup_list', Array, Array, '')
+#2 C:\php\htdocs\goodbrandslove\classes\src\Object\objects\LookupList.php(84): classes\src\Object\objects\LookupList->getByX(Array, Array)
+#3 C:\php\htdocs\goodbrandslove\includes\html\dashboards\creator_dashboard.php(22): classes\src\Object\objects\LookupList->getByUsername('instaniamani')
+#4 C:\php\htdocs\goodbrandslove\functions.php(47): require_once('C:\\php\\htdocs\\g...')
+#5 C:\php\htdocs\goodbrandslove\includes\html\user_templates\user_page.php(44): require_files_list(Array)
+#6 C:\php\htdocs\goodbrandslove\functions.php(47): require_once('C:\\php\\htdocs\\g...')
+#7 C:\php\htdocs\goodbrandslove\includes\html\user_templates\user_template.php(14): require_files_list(Array)
+#8 C:\php\htdocs\goodbrandslove\functions.php(47): require_once('C:\\php\\htdocs\\g...')
+#9 C:\php\htdocs\goodbrandslove\index.php(57): require_files_list(Array)
+#10 {main}
+Date: 03/08-2023 14:33:56; User: 27017094193078; Error_code: 901; Error_msg: PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'provider' in 'where clause' in C:\php\htdocs\goodbrandslove\classes\src\AbstractCrudObject.php:83
+Stack trace:
+#0 C:\php\htdocs\goodbrandslove\classes\src\AbstractCrudObject.php(83): PDO->query('SELECT * FROM l...')
+#1 C:\php\htdocs\goodbrandslove\classes\src\Object\objects\LookupList.php(65): classes\src\AbstractCrudObject->retrieve('lookup_list', Array, Array, '')
+#2 C:\php\htdocs\goodbrandslove\classes\src\Object\objects\LookupList.php(84): classes\src\Object\objects\LookupList->getByX(Array, Array)
+#3 C:\php\htdocs\goodbrandslove\classes\src\Object\objects\User.php(247): classes\src\Object\objects\LookupList->getByUsername('instaniamani')
+#4 C:\php\htdocs\goodbrandslove\class_settings.php(18): classes\src\Object\objects\User->integrationUnderway()
+#5 C:\php\htdocs\goodbrandslove\functions.php(31): getPage()
+#6 C:\php\htdocs\goodbrandslove\index.php(14): require_once('C:\\php\\htdocs\\g...')
+#7 {main}
+Date: 03/08-2023 14:33:57; User: 27017094193078; Error_code: 901; Error_msg: PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'provider' in 'where clause' in C:\php\htdocs\goodbrandslove\classes\src\AbstractCrudObject.php:83
+Stack trace:
+#0 C:\php\htdocs\goodbrandslove\classes\src\AbstractCrudObject.php(83): PDO->query('SELECT * FROM l...')
+#1 C:\php\htdocs\goodbrandslove\classes\src\Object\objects\LookupList.php(65): classes\src\AbstractCrudObject->retrieve('lookup_list', Array, Array, '')
+#2 C:\php\htdocs\goodbrandslove\classes\src\Object\objects\LookupList.php(84): classes\src\Object\objects\LookupList->getByX(Array, Array)
+#3 C:\php\htdocs\goodbrandslove\includes\html\dashboards\creator_dashboard.php(22): classes\src\Object\objects\LookupList->getByUsername('instaniamani')
+#4 C:\php\htdocs\goodbrandslove\functions.php(47): require_once('C:\\php\\htdocs\\g...')
+#5 C:\php\htdocs\goodbrandslove\includes\html\user_templates\user_page.php(44): require_files_list(Array)
+#6 C:\php\htdocs\goodbrandslove\functions.php(47): require_once('C:\\php\\htdocs\\g...')
+#7 C:\php\htdocs\goodbrandslove\includes\html\user_templates\user_template.php(14): require_files_list(Array)
+#8 C:\php\htdocs\goodbrandslove\functions.php(47): require_once('C:\\php\\htdocs\\g...')
+#9 C:\php\htdocs\goodbrandslove\index.php(57): require_files_list(Array)
+#10 {main}
+Date: 03/08-2023 14:34:18; User: 27017094193078; Error_code: 901; Error_msg: PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'provider' in 'where clause' in C:\php\htdocs\goodbrandslove\classes\src\AbstractCrudObject.php:83
+Stack trace:
+#0 C:\php\htdocs\goodbrandslove\classes\src\AbstractCrudObject.php(83): PDO->query('SELECT * FROM l...')
+#1 C:\php\htdocs\goodbrandslove\classes\src\Object\objects\LookupList.php(65): classes\src\AbstractCrudObject->retrieve('lookup_list', Array, Array, '')
+#2 C:\php\htdocs\goodbrandslove\classes\src\Object\objects\LookupList.php(84): classes\src\Object\objects\LookupList->getByX(Array, Array)
+#3 C:\php\htdocs\goodbrandslove\classes\src\Object\objects\User.php(247): classes\src\Object\objects\LookupList->getByUsername('instaniamani')
+#4 C:\php\htdocs\goodbrandslove\class_settings.php(18): classes\src\Object\objects\User->integrationUnderway()
+#5 C:\php\htdocs\goodbrandslove\functions.php(31): getPage()
+#6 C:\php\htdocs\goodbrandslove\index.php(14): require_once('C:\\php\\htdocs\\g...')
+#7 {main}
+Date: 03/08-2023 14:34:18; User: 27017094193078; Error_code: 901; Error_msg: PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'provider' in 'where clause' in C:\php\htdocs\goodbrandslove\classes\src\AbstractCrudObject.php:83
+Stack trace:
+#0 C:\php\htdocs\goodbrandslove\classes\src\AbstractCrudObject.php(83): PDO->query('SELECT * FROM l...')
+#1 C:\php\htdocs\goodbrandslove\classes\src\Object\objects\LookupList.php(65): classes\src\AbstractCrudObject->retrieve('lookup_list', Array, Array, '')
+#2 C:\php\htdocs\goodbrandslove\classes\src\Object\objects\LookupList.php(84): classes\src\Object\objects\LookupList->getByX(Array, Array)
+#3 C:\php\htdocs\goodbrandslove\includes\html\dashboards\creator_dashboard.php(22): classes\src\Object\objects\LookupList->getByUsername('instaniamani')
+#4 C:\php\htdocs\goodbrandslove\functions.php(47): require_once('C:\\php\\htdocs\\g...')
+#5 C:\php\htdocs\goodbrandslove\includes\html\user_templates\user_page.php(44): require_files_list(Array)
+#6 C:\php\htdocs\goodbrandslove\functions.php(47): require_once('C:\\php\\htdocs\\g...')
+#7 C:\php\htdocs\goodbrandslove\includes\html\user_templates\user_template.php(14): require_files_list(Array)
+#8 C:\php\htdocs\goodbrandslove\functions.php(47): require_once('C:\\php\\htdocs\\g...')
+#9 C:\php\htdocs\goodbrandslove\index.php(57): require_files_list(Array)
+#10 {main}
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'relation_id' in 'field list'
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'relation_id' in 'field list'
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'relation_id' in 'field list'
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'relation_id' in 'field list'
+Date: 15/09-2023 19:33:55; User: 29852698833154; Error_code: 901; Error_msg: PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_creator' in 'where clause' in C:\php\htdocs\goodbrandslove\classes\src\AbstractCrudObject.php:84
+Stack trace:
+#0 C:\php\htdocs\goodbrandslove\classes\src\AbstractCrudObject.php(84): PDO->query('SELECT * FROM i...')
+#1 C:\php\htdocs\goodbrandslove\classes\src\Object\objects\Integrations.php(39): classes\src\AbstractCrudObject->retrieve('integration', Array, Array, '')
+#2 C:\php\htdocs\goodbrandslove\classes\src\Object\objects\AccountAnalytics.php(78): classes\src\Object\objects\Integrations->getByX(Array)
+#3 C:\php\htdocs\goodbrandslove\includes\html\dashboards\admin_dashboard.php(51): classes\src\Object\objects\AccountAnalytics->findCreatorsToCompleteIntegration()
+#4 C:\php\htdocs\goodbrandslove\functions.php(65): require_once('C:\\php\\htdocs\\g...')
+#5 C:\php\htdocs\goodbrandslove\includes\html\user_templates\user_page.php(44): require_files_list(Array)
+#6 C:\php\htdocs\goodbrandslove\functions.php(65): require_once('C:\\php\\htdocs\\g...')
+#7 C:\php\htdocs\goodbrandslove\includes\html\user_templates\user_template.php(14): require_files_list(Array)
+#8 C:\php\htdocs\goodbrandslove\functions.php(65): require_once('C:\\php\\htdocs\\g...')
+#9 C:\php\htdocs\goodbrandslove\index.php(62): require_files_list(Array)
+#10 {main}
+Date: 15/09-2023 19:34:36; User: 29852698833154; Error_code: 901; Error_msg: PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_creator' in 'where clause' in C:\php\htdocs\goodbrandslove\classes\src\AbstractCrudObject.php:84
+Stack trace:
+#0 C:\php\htdocs\goodbrandslove\classes\src\AbstractCrudObject.php(84): PDO->query('SELECT * FROM i...')
+#1 C:\php\htdocs\goodbrandslove\classes\src\Object\objects\Integrations.php(39): classes\src\AbstractCrudObject->retrieve('integration', Array, Array, '')
+#2 C:\php\htdocs\goodbrandslove\classes\src\Object\objects\AccountAnalytics.php(78): classes\src\Object\objects\Integrations->getByX(Array)
+#3 C:\php\htdocs\goodbrandslove\includes\html\dashboards\admin_dashboard.php(51): classes\src\Object\objects\AccountAnalytics->findCreatorsToCompleteIntegration()
+#4 C:\php\htdocs\goodbrandslove\functions.php(65): require_once('C:\\php\\htdocs\\g...')
+#5 C:\php\htdocs\goodbrandslove\includes\html\user_templates\user_page.php(44): require_files_list(Array)
+#6 C:\php\htdocs\goodbrandslove\functions.php(65): require_once('C:\\php\\htdocs\\g...')
+#7 C:\php\htdocs\goodbrandslove\includes\html\user_templates\user_template.php(14): require_files_list(Array)
+#8 C:\php\htdocs\goodbrandslove\functions.php(65): require_once('C:\\php\\htdocs\\g...')
+#9 C:\php\htdocs\goodbrandslove\index.php(62): require_files_list(Array)
+#10 {main}
+Date: 15/09-2023 19:35:11; User: 29852698833154; Error_code: 901; Error_msg: PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_creator' in 'where clause' in C:\php\htdocs\goodbrandslove\classes\src\AbstractCrudObject.php:84
+Stack trace:
+#0 C:\php\htdocs\goodbrandslove\classes\src\AbstractCrudObject.php(84): PDO->query('SELECT * FROM i...')
+#1 C:\php\htdocs\goodbrandslove\classes\src\Object\objects\Integrations.php(39): classes\src\AbstractCrudObject->retrieve('integration', Array, Array, '')
+#2 C:\php\htdocs\goodbrandslove\classes\src\Object\objects\AccountAnalytics.php(78): classes\src\Object\objects\Integrations->getByX(Array)
+#3 C:\php\htdocs\goodbrandslove\includes\html\dashboards\admin_dashboard.php(51): classes\src\Object\objects\AccountAnalytics->findCreatorsToCompleteIntegration()
+#4 C:\php\htdocs\goodbrandslove\functions.php(65): require_once('C:\\php\\htdocs\\g...')
+#5 C:\php\htdocs\goodbrandslove\includes\html\user_templates\user_page.php(44): require_files_list(Array)
+#6 C:\php\htdocs\goodbrandslove\functions.php(65): require_once('C:\\php\\htdocs\\g...')
+#7 C:\php\htdocs\goodbrandslove\includes\html\user_templates\user_template.php(14): require_files_list(Array)
+#8 C:\php\htdocs\goodbrandslove\functions.php(65): require_once('C:\\php\\htdocs\\g...')
+#9 C:\php\htdocs\goodbrandslove\index.php(62): require_files_list(Array)
+#10 {main}
+Date: 15/09-2023 19:35:21; User: 29852698833154; Error_code: 901; Error_msg: PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_creator' in 'where clause' in C:\php\htdocs\goodbrandslove\classes\src\AbstractCrudObject.php:84
+Stack trace:
+#0 C:\php\htdocs\goodbrandslove\classes\src\AbstractCrudObject.php(84): PDO->query('SELECT * FROM i...')
+#1 C:\php\htdocs\goodbrandslove\classes\src\Object\objects\Integrations.php(39): classes\src\AbstractCrudObject->retrieve('integration', Array, Array, '')
+#2 C:\php\htdocs\goodbrandslove\classes\src\Object\objects\AccountAnalytics.php(78): classes\src\Object\objects\Integrations->getByX(Array)
+#3 C:\php\htdocs\goodbrandslove\includes\html\dashboards\admin_dashboard.php(51): classes\src\Object\objects\AccountAnalytics->findCreatorsToCompleteIntegration()
+#4 C:\php\htdocs\goodbrandslove\functions.php(65): require_once('C:\\php\\htdocs\\g...')
+#5 C:\php\htdocs\goodbrandslove\includes\html\user_templates\user_page.php(44): require_files_list(Array)
+#6 C:\php\htdocs\goodbrandslove\functions.php(65): require_once('C:\\php\\htdocs\\g...')
+#7 C:\php\htdocs\goodbrandslove\includes\html\user_templates\user_template.php(14): require_files_list(Array)
+#8 C:\php\htdocs\goodbrandslove\functions.php(65): require_once('C:\\php\\htdocs\\g...')
+#9 C:\php\htdocs\goodbrandslove\index.php(62): require_files_list(Array)
+#10 {main}
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'media_product_type' in 'field list'
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'media_product_type' in 'field list'
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'media_product_type' in 'field list'
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'media_product_type' in 'field list'
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'media_product_type' in 'field list'
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'media_product_type' in 'field list'
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'media_product_type' in 'field list'
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'media_product_type' in 'field list'
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'media_product_type' in 'field list'
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'media_product_type' in 'field list'
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'media_product_type' in 'field list'
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'media_product_type' in 'field list'
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'media_product_type' in 'field list'
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'media_product_type' in 'field list'
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'media_product_type' in 'field list'
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'media_product_type' in 'field list'
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'media_product_type' in 'field list'
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'media_product_type' in 'field list'
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'media_product_type' in 'field list'
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'media_product_type' in 'field list'
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'media_product_type' in 'field list'
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'media_product_type' in 'field list'
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'media_product_type' in 'field list'
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'media_product_type' in 'field list'
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'media_product_type' in 'field list'
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'media_product_type' in 'field list'
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'media_product_type' in 'field list'
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'media_product_type' in 'field list'
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'media_product_type' in 'field list'
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'media_product_type' in 'field list'
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'media_product_type' in 'field list'
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'media_product_type' in 'field list'
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'media_product_type' in 'field list'
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'media_product_type' in 'field list'
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'media_product_type' in 'field list'
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'media_product_type' in 'field list'
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'reach_count' in 'field list'
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'reach_count' in 'field list'
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'reach_count' in 'field list'
+Date: 26/04-2024 14:01:25; User: 29852698833154; Error_code: 901; Error_msg: PDOException: SQLSTATE[HY000]: General error: 4078 Illegal parameter data types int and row for operation '=' in C:\php\htdocs\goodbrandslove\classes\src\AbstractCrudObject.php:97
+Stack trace:
+#0 C:\php\htdocs\goodbrandslove\classes\src\AbstractCrudObject.php(97): PDO->query('SELECT * FROM i...')
+#1 C:\php\htdocs\goodbrandslove\classes\src\Object\objects\Integrations.php(43): classes\src\AbstractCrudObject->retrieve('integration', Array, Array, '')
+#2 C:\php\htdocs\goodbrandslove\includes\html\dashboards\admin_dashboard.php(32): classes\src\Object\objects\Integrations->getByX(Array)
+#3 C:\php\htdocs\goodbrandslove\functions.php(82): require_once('C:\\php\\htdocs\\g...')
+#4 C:\php\htdocs\goodbrandslove\includes\html\user_templates\user_page.php(45): require_files_list(Array)
+#5 C:\php\htdocs\goodbrandslove\functions.php(82): require_once('C:\\php\\htdocs\\g...')
+#6 C:\php\htdocs\goodbrandslove\includes\html\user_templates\user_template.php(14): require_files_list(Array)
+#7 C:\php\htdocs\goodbrandslove\functions.php(82): require_once('C:\\php\\htdocs\\g...')
+#8 C:\php\htdocs\goodbrandslove\index.php(67): require_files_list(Array)
+#9 {main}
