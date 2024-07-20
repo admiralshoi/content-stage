@@ -17,12 +17,6 @@ class AccessPoints {
     }
 
 
-    public function name(array $specs = array()): string {
-        $field = "name";
-        $accessPoint = $this->get($specs, array($field));
-        return empty($accessPoint) ? "" : $accessPoint[$field];
-    }
-
     public function accessLevels(array $specs = array()): array {
         $field = "access_levels";
         $accessPoint = $this->get($specs, array($field));
@@ -31,22 +25,7 @@ class AccessPoints {
         return explode(",", $accessPoint[$field]);
     }
 
-    public function type(array $specs = array()): string {
-        $field = "type";
-        $accessPoint = $this->get($specs, array($field));
-        return empty($accessPoint) ? "" : $accessPoint[$field];
-    }
-    public function description(array $specs = array()): string {
-        $field = "description";
-        $accessPoint = $this->get($specs, array($field));
-        return empty($accessPoint) ? "" : $accessPoint[$field];
-    }
 
-    public function actionLevel(array $specs = array()): int {
-        $field = "action_level";
-        $accessPoint = $this->get($specs, array($field));
-        return empty($accessPoint) ? 0 : (int)$accessPoint[$field];
-    }
 
     public function get(array $specs = array(), array $fields = array()): array {
         $this->identifier($specs);
@@ -59,16 +38,6 @@ class AccessPoints {
     public function getByX(array $params = array(), array $fields = array()): array { return $this->crud->retrieve("access", $params, $fields); }
 
 
-    public function getMultiPoints(array $params = array()): array {
-        $list = $this->getByX($params);
-
-        if(empty($list)) return array();
-
-        return array_map(function ($accessPoint) {
-            if(empty($accessPoint["access_levels"])) return array();
-            return explode(",", $accessPoint["access_levels"]);
-        }, $list);
-    }
 
     public function getAccessLevelsFromMultiPoint(array $params, array $list): array {
         if(empty($list) || empty($params)) return array();

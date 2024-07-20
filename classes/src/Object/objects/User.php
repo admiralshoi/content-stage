@@ -162,6 +162,11 @@ class User {
         return array_key_exists(0, $users) ? $users[0] : $users;
     }
 
+    public function getByEmail(string|int $uniqueId): array {
+        $users = $this->getByX(array("email" => $uniqueId));
+        return array_key_exists(0, $users) ? $users[0] : $users;
+    }
+
     public function get(string|int $userId = 0, $fields = array()): array {
         $this->identifier($userId);
         if(!$this->status()) return array();

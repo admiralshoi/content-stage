@@ -109,58 +109,6 @@ async function updatePlatformIntervals(btn) {
 
 
 
-async function editPage(button) {
-    let editId = "richTextOutput";
-    let editorField = $(document).find("#" + editId);
-    let targetPage = button.attr("data-target-name");
-
-    if(!editorField.length) return false;
-    if(!["privacy_policy", "terms_of_use"].includes(targetPage)) return false;
-
-
-
-    let htmlContent = editorField.html();
-    let params = {
-        request: "set_new_page_content",
-        target: targetPage,
-        content: htmlContent
-    };
-    let result = ensureObject(await requestServer(params));
-    if(result) {
-        ePopup("Page updated", prepareProperNameString(targetPage) + " was successfully updated", 0,  "success", "approve")
-        window.setTimeout(function () {window.location = window.location.href;}, 1500)
-    }
-
-}
-
-
-
-
-
-
-async function createCategory(btn) {
-    let parent = btn.parents(".dataParentContainer").first(),
-        field = parent.find("input[name=new_category]").first();
-
-    if(!field.length) return;
-    let result = ensureObject(await requestServer({request: "create_category", data: {category: field.val()}}))
-
-    if(typeof result !== "object" || !("status" in result)) {
-        ePopup("Something went wrong", "Please try again later");
-        return false;
-    }
-
-    if(result.status === "error") {
-        ePopup("Something went wrong", result.message);
-        return false;
-    }
-
-    ePopupTimeout("Action successful", result.message, "success", "approve");
-    field.val("");
-}
-
-
-
 
 
 

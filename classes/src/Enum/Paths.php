@@ -70,7 +70,6 @@ class Paths {
         "iconfont" => "includes/template/assets/fonts/feather-font/css/iconfont.css",
         "mdi_icons" => "includes/template/assets/vendors/mdi/css/materialdesignicons.min.css",
         "style" => "includes/template/assets/css/demo_1/style.css",
-        "style_2" => "includes/template/assets/css/demo_2/style.css",
         "date_picker" => "includes/template/assets/vendors/bootstrap-datepicker/bootstrap-datepicker.min.css",
         "bootstrap" => "includes/template/assets/vendors/tempusdominus-bootstrap-4/tempusdominus-bootstrap-4.min.css",
         "flag_icon" => "includes/template/assets/vendors/flag-icon-css/css/flag-icon.min.css",
@@ -78,15 +77,18 @@ class Paths {
         "sweet_alert" => "includes/template/assets/vendors/sweetalert2/sweetalert2.min.css",
         "carousel_min" => "includes/template/assets/vendors/owl.carousel/owl.carousel.min.css",
         "carousel_theme_min" => "includes/template/assets/vendors/owl.carousel/owl.theme.default.min.css",
+        "cropper_min" => "includes/template/assets/vendors/cropperjs/cropper.min.css",
+        "select2" => "includes/template/assets/vendors/select2/select2.min.css",
+        "dropzone" => "https://unpkg.com/dropzone@5/dist/min/dropzone.min.css",
+
+
+
         "landing_style" => "style/landing_design/styler.css",
         "main_style" => "style/main_style.css",
         "styles2" => "style/styles2.css",
         "responsiveness" => "style/responsiveness.css",
         "daterangepicker_min" => "style/includes/daterangepicker.css",
         "filepond" => "style/includes/filePond.css",
-        "cropper_min" => "includes/template/assets/vendors/cropperjs/cropper.min.css",
-        "select2" => "includes/template/assets/vendors/select2/select2.min.css",
-        "dropzone" => "https://unpkg.com/dropzone@5/dist/min/dropzone.min.css",
     );
     const js = array(
         "main" => "javascript/main.js",
@@ -101,8 +103,12 @@ class Paths {
         "editor" => "javascript/Editor.js",
         "adm_scripts" => "javascript/adm-scripts.js",
         "editorHandler" => "javascript/editorHandler.js",
-        "core" => "includes/template/assets/vendors/core/core.js",
         "daterangepicker_min" => "javascript/includes/daterangepicker.js",
+        "live-chat" => "javascript/live-chat.js",
+        "modal-handler" => "javascript/modalHandler.js",
+
+
+        "core" => "includes/template/assets/vendors/core/core.js",
         "form-validation" => "includes/template/assets/js/form-validation.js",
         "bootstrap" => "includes/template/assets/vendors/tempusdominus-bootstrap-4/tempusdominus-bootstrap-4.js",
         "flot" => "includes/template/assets/vendors/jquery.flot/jquery.flot.js",
@@ -131,8 +137,6 @@ class Paths {
         "filepond_metadata" => "https://unpkg.com/filepond-plugin-file-metadata/dist/filepond-plugin-file-metadata.js",
         "google_charts" => "https://www.gstatic.com/charts/loader.js",
         "handlebars" => "https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.8/handlebars.min.js",
-        "live-chat" => "javascript/live-chat.js",
-        "modal-handler" => "javascript/modalHandler.js",
     );
 
     private const sideBarPaths = array(

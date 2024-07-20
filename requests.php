@@ -87,35 +87,12 @@ elseif($requestName === "hasSession") {
     $httpRequestResponse = json_encode(array("session" => (isset($_SESSION["uid"], $_SESSION["access_level"]) && !empty($crud->user($_SESSION["uid"])->get()))));
 }
 
-
-elseif($requestName === "reset_pwd_to_default") {
-    $httpRequestResponse =  json_encode($crud->user()->resetPwdToDefault($requestContent));
-}
-elseif($requestName === "user_role") {
-    $httpRequestResponse =  json_encode($crud->userRoles($requestContent["access_level"])->get());
-}
-elseif($requestName === "user_roles") {
-    $httpRequestResponse =  json_encode(($crud)->userRoles()->getByX());
-}
-elseif($requestName === "user_log") {
-    $logType = !isset($requestContent["type"]) ? "connections" : $requestContent["type"];
-    $httpRequestResponse =  ($crud)->user()->getUserLogs($logType);
-}
-elseif($requestName === "getAccessPointList") {
-    $httpRequestResponse =  json_encode(($crud)->accessPoints()->getByX());
-}
-elseif($requestName === "updateAccessPoint") {
-    if(!isset($requestContent["identifier"],$requestContent["access_levels"])) {
-        $httpRequestResponse =  json_encode(array("error" => "Missing update values"));
-    }
-    $httpRequestResponse =  json_encode(($crud)->accessPoints()->update(array("access_levels" => $requestContent["access_levels"]),$requestContent["identifier"]));
-}
-elseif($requestName === "userSearchSuggestions") {
-    $httpRequestResponse =  json_encode(($crud)->user()->searchUser($requestContent));
-}
 elseif ($requestName === "userLogging") {
     $crud->activityLogging()->logActivity($requestContent);
 }
+
+
+
 elseif ($requestName === "setNewUserIntegration") {
     $httpRequestResponse =  json_encode(($crud)->integrations()->integrate($requestContent));
 }
@@ -143,12 +120,6 @@ elseif ($requestName === "login_user") {
 
     if(!$status) $httpRequestResponse = json_encode($login->error);
     else $httpRequestResponse = json_encode(array("status" => "success"));
-}
-elseif($requestName === "tmp_file_upload") {
-    $httpRequestResponse = json_encode($crud->mediaStream()->setTmpUpload($_FILES));
-}
-elseif($requestName === "set_new_page_content") {
-    $httpRequestResponse = json_encode($crud->misc()->setNewPageContent($requestContent));
 }
 elseif($requestName === "reset_pwd") {
     $httpRequestResponse = json_encode($crud->pwdReset()->createNewPwdReset($requestContent["email"] ?? ""));
